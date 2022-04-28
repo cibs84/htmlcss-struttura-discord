@@ -102,7 +102,7 @@ header {
     }
 
 /* MAIN */
-    /* Main Section: COMMON */
+    /* Main > Section: COMMON */
     main section {
         height: 500px;
     }
@@ -160,5 +160,40 @@ header {
         border: 2px dashed black;
     }
 
+    /* Section-Third */
+    #section-third .columns .col-left {
+        width: 60%;
+
+        /* TEST */
+        background-color: #1e90ff;
+        height: 400px;
+        border: 2px dashed black;
+    }
+
+    #section-third .columns .col-right {
+        width: 40%;
+        
+        /* TEST */
+        background-color: #ffc0cb;
+        height: 400px;
+        border: 2px dashed black;
+    }
+
+    /* Section-Fourth */
+    #section-fourth {
+        background-color: #d3d3d3;
+        height: 1000px;
+    }
+
+    #section-fourth .columns .col {
+        width: 100%;
+        
+        /* TEST */
+        background-color: #228b22;
+        height: 900px;
+        border: 2px dashed black;
+    }
+    
+    
 
 /* FOOTER */
