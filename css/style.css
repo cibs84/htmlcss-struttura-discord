@@ -170,15 +170,9 @@ header {
     /* Section-Fourth */
     #section-fourth {
         background-color: #d3d3d3;
-        /* height: 1000px; */
     }
 
-    #section-fourth .container {
-        background-color: #d3d3d3;
-        height: 1000px;
-    }
-
-    #section-fourth .columns .col {
+    #section-fourth .col {
         width: 100%;
         
         /* TEST */
