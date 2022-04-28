@@ -35,13 +35,6 @@ header {
         font-size: 20px;
     }
 
-    #bottom-header {
-        background-color: blue;
-        
-        /* TEST */
-        height: 500px;
-    }
-
     #header-top .container {
 
     }
@@ -87,6 +80,28 @@ header {
         width: 20%;
         text-align: right;
     }
+
+    /* Header-Bottom */
+    #header-bottom {
+        background-color: #00008b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        /* TEST */
+        height: 500px;
+    }
+    .jumbotron-text {
+        width: 45%;
+        
+        /* TEST */
+        background-color: #ee82ee;
+        border: 2px dashed black;
+        height: 400px;
+        
+    }
+
+
 
 /* MAIN */
 
