@@ -96,16 +96,14 @@ header {
 
 /* MAIN */
     /* Main > Sections: COMMON */
-    main section .container {
+    main > section {
         padding: 50px 0;
-        /* height: 600px; */
     }
 
-    main section .columns {
+    main > section .columns {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* height: 100%; */
     }
 
     /* Section-First */
