@@ -40,7 +40,6 @@ header {
         align-items: center;
 
         /* TEST */
-        border: 1px dotted black;
         background-color: goldenrod;
     }
 
@@ -49,9 +48,7 @@ header {
     #login {
         /* TEST */
         border: 2px dashed black;
-        height: 50px;
-        line-height: 45px;
-        padding: 0 15px;
+        padding: 10px;    
     }
 
     #header-top .logo {
@@ -226,15 +223,12 @@ header {
         /* TEST */
         background-color: #20b2aa;
         height: 570px;
-        border: 2px dashed black;
     }
 
     #footer-top .columns .col-right .col {
         width: calc(100% / 4);
 
         /* TEST */
-        background-color: #20b2aa;
-        height: 570px;
         border: 2px dashed white;
     }
     
@@ -242,7 +236,6 @@ header {
     #footer-bottom {
         background-color: #23272a;
         padding-top: 30px;
-        /* height: 100px; */
     }
 
     #footer-bottom .columns {
