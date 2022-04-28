@@ -6,10 +6,87 @@
 }
 
 /* COMMON */
+body {
 
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* HEADER */
+header {
+}
 
+    /* Header-Top */
+    #header-top {
+        padding: 20px 0;
+        background-color: lightblue;
+        font-size: 20px;
+    }
+
+    #bottom-header {
+        background-color: blue;
+        
+        /* TEST */
+        height: 500px;
+    }
+
+    #header-top .container {
+
+    }
+
+    #header-top .columns {
+        display: flex;
+        align-items: center;
+
+        /* TEST */
+        border: 1px dotted black;
+        background-color: goldenrod;
+    }
+
+    #logo,
+    nav,
+    #login {
+        /* TEST */
+        border: 2px dashed black;
+        height: 50px;
+        line-height: 45px;
+        padding: 0 15px;
+    }
+
+    #header-top #logo {
+        width: 20%;
+    }
+
+    #header-top nav {
+        width: 60%;
+        text-align: center;
+    }
+
+    #header-top nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    #header-top nav ul li {
+        padding: 0px 15px;
+    }
+
+    #header-top #login {
+        width: 20%;
+        text-align: right;
+    }
 
 /* MAIN */
 
