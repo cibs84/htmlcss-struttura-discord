@@ -7,7 +7,8 @@
 
 /* COMMON */
 body {
-
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -32,7 +33,6 @@ header {
     #header-top {
         padding: 20px 0;
         background-color: lightblue;
-        font-size: 20px;
     }
 
     #header-top .columns {
@@ -44,7 +44,7 @@ header {
         background-color: goldenrod;
     }
 
-    #logo,
+    .logo,
     nav,
     #login {
         /* TEST */
@@ -54,7 +54,7 @@ header {
         padding: 0 15px;
     }
 
-    #header-top #logo {
+    #header-top .logo {
         width: 20%;
     }
 
@@ -69,7 +69,7 @@ header {
     }
 
     #header-top nav ul li {
-        padding: 0px 15px;
+        padding: 0px 5px;
     }
 
     #header-top #login {
@@ -98,9 +98,9 @@ header {
     }
 
 /* MAIN */
-    /* Main > Section: COMMON */
+    /* Main > Sections: COMMON */
     main section {
-        height: 500px;
+        height: 600px;
     }
 
     main section .container {
@@ -120,7 +120,7 @@ header {
 
         /* TEST */
         background-color: #1e90ff;
-        height: 400px;
+        height: 500px;
         border: 2px dashed black;
     }
 
@@ -129,7 +129,7 @@ header {
         
         /* TEST */
         background-color: #ffc0cb;
-        height: 400px;
+        height: 500px;
         border: 2px dashed black;
     }
 
@@ -143,7 +143,7 @@ header {
         
         /* TEST */
         background-color: #ffc0cb;
-        height: 400px;
+        height: 500px;
         border: 2px dashed black;
     }
     
@@ -152,7 +152,7 @@ header {
     
         /* TEST */
         background-color: #1e90ff;
-        height: 400px;
+        height: 500px;
         border: 2px dashed black;
     }
 
@@ -162,7 +162,7 @@ header {
 
         /* TEST */
         background-color: #1e90ff;
-        height: 400px;
+        height: 500px;
         border: 2px dashed black;
     }
 
@@ -171,7 +171,7 @@ header {
         
         /* TEST */
         background-color: #ffc0cb;
-        height: 400px;
+        height: 500px;
         border: 2px dashed black;
     }
 
@@ -191,7 +191,7 @@ header {
     }
      
 /* FOOTER */
-footer .columns {
+#footer-top .columns {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -236,5 +236,28 @@ footer .columns {
         background-color: #20b2aa;
         height: 570px;
         border: 2px dashed white;
+    }
+    
+    /* Footer-Bottom */
+    #footer-bottom {
+        background-color: #23272a;
+        padding-top: 30px;
+        /* height: 100px; */
+    }
+
+    #footer-bottom .columns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        background-color: #7fffd4;
+    }
+    
+    .logo-footer,
+    .button-footer {
+        /* TEST */
+        border: 2px dashed black;
+        padding: 4px 10px;
+        background-color: #ffb6c1;
     }
     
